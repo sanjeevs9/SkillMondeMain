@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import FreelanceSection from './Components/FreelanceSection'
 import Learning from './Components/Learning'
 import Main from './Components/Main'
+import NewsLetter from './Components/NewsLetter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
         <Main/>
         <FreelanceSection/>
         <Learning/>
-
+        <NewsLetter/>
         </div>
         </div>
      </div>

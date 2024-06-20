@@ -34,8 +34,8 @@ export default function Learning(){
                         Skillmonde makes it affordable to enhance your skills.
                     </div>
                     <div className="pl-6 pt-3 lg:pt-4 xl:pt-5 flex gap-4 sm:gap-7 lg:gap-7">
-                        <button className="bg-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10  lg:p-[2.5] lg:pl-8 lg:pr-8 xl:p-3 xl:pl-10 xl:pr-10 rounded-lg text-sm font-medium ">Sign up</button>
-                        <button className="border border-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10 lg:p-3 lg:pl-8 lg:pr-8  xl:p-3 xl:pl-10 xl:pr-10 rounded-lg font-medium text-sm">Visit Now</button>
+                        <button className="bg-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10  lg:p-[2.5] lg:pl-8 lg:pr-8 xl:p-3 xl:pl-10 xl:pr-10 rounded-lg text-sm font-medium transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Sign up</button>
+                        <button className="border border-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10 lg:p-3 lg:pl-8 lg:pr-8  xl:p-3 xl:pl-10 xl:pr-10 rounded-lg font-medium text-sm transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button>
                     </div>
                 </div>
             </div>
