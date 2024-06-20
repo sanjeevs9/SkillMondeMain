@@ -9,6 +9,10 @@ export default {
       colors:{
         "PGreen":"#8CCF27",
         "PPurple":"#472E8C"
+      },
+      fontFamily:{
+        'cormorant-gara':["Cormorant Garamond", 'serif'],
+        'ubuntu': ["Ubuntu", "sans-serif"]
       }
     },
   },

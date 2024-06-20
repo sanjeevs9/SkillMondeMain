@@ -3,7 +3,7 @@ import work from "../../public/work.jpg"
 export default function FreelanceSection(){
     return(
         <>
-        <div className="pt-5 md:pt-10 ">
+        <div className=" md:pt-10 ">
                 <div className="flex p-5 xl:h-[36rem] h-[30rem] sm:h-[40rem]  md:h-[30rem]  md:flex-row flex-col-reverse ">
                     <div className="bg-[#125045] md:w-3/6 w-full md:rounded-l-2xl  md:h-auto h-full">
                             <div className="text-3xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl  text-white font-semibold p-6 md:p-10  lg:p-14 h-5/6  md:h-auto ">
