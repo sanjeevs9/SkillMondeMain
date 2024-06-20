@@ -18,14 +18,14 @@ export default function Learning(){
                     <div className="pt-1 text-sm sm:text-base lg:text-base xl:text-lg  font-semibold">Up Your Skill Effortlessly</div>
                     <div className="pt-3 text-sm sm:text-base lg:text-base xl:text-lg font-semibold w-5/6 md:w-3/4"> Register and browse courses, explore topics, or even book a consultation</div>
                     <div className="flex pt-5 font-semibold sm:text-lg lg:text-lg xl:text-xl items-center gap-1">
-                        <img className="size-fit h-5 " src={certificate}></img>
+                        <img className="object-cover h-5 " src={certificate}></img>
                         <div className="">
                             Enroll in Courses and Learn from Experts
                         </div>
                     </div>
                     <div className="text-xs sm:text-sm lg:text-sm xl:text-base pl-6">Learning doesn't have to be difficult. Enroll in a course or let us recommend one for you</div>
                     <div className="flex pt-3 sm:text-lg lg:text-lg xl:text-xl font-semibold items-center gap-1">
-                        <img className="size-fit h-5" src={reading}></img>
+                        <img className="object-cover h-5" src={reading}></img>
                         <div>
                             Learn from the Best--Without Breaking the Bank
                         </div>

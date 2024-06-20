@@ -19,7 +19,7 @@ export default function Main(){
                         </div>
                     </div>
                     <div className="hidden md:flex  w-9/12  items-end  ">
-                        <img className="size-fit w-[25rem] md:w-[30rem] lg:w-[40rem] xl:-translate-y-10" src={startup}/>
+                        <img className="object-cover w-[25rem] md:w-[30rem] lg:w-[40rem] xl:-translate-y-10" src={startup}/>
                     </div>
                 </div>
             </div>
