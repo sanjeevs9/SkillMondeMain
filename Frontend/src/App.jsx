@@ -4,6 +4,7 @@ import FreelanceSection from './Components/FreelanceSection'
 import Learning from './Components/Learning'
 import Main from './Components/Main'
 import NewsLetter from './Components/NewsLetter'
+import Businesses from './Components/Business'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Main/>
         <FreelanceSection/>
         <Learning/>
+        <Businesses/>
         <NewsLetter/>
         </div>
         </div>
