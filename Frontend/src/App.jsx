@@ -5,6 +5,7 @@ import Learning from './Components/Learning'
 import Main from './Components/Main'
 import NewsLetter from './Components/NewsLetter'
 import Businesses from './Components/Business'
+import Team from './Components/Team'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Learning/>
         <Businesses/>
         <NewsLetter/>
+        <Team/>
         </div>
         </div>
      </div>

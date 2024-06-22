@@ -5,10 +5,10 @@ export default function Main(){
         <>
             <div className="">
                 <div className="flex p-5 pb-1 pt-0 md:pt-5 md:pb-0 xl:pt-10">
-                    <div className="">
+                    <div className="xl:translate-y-4">
                         <div className="flex flex-col p-5 sm:p-6 md:p-5 md:pt-7 ">
                             <div className="font-bold text-4xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-cormorant-gara">
-                                Your Future Starts at <span className="text-PGreen">Skillmonde</span>
+                                Your Future Starts at <span className="text-PGreen">SkillMonde</span>
                             </div>
                             <div className="text-gray-500 font-semibold text-sm sm:text-lg md:text-sm lg:text-base xl:text-lg  w-4/5 pt-2 sm:pt-3 xl:pt-5">
                                 Connecting Businesses, Freelancing and Learners fro a Brighter Future
