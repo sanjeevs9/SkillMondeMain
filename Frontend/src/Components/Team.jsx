@@ -85,8 +85,8 @@ export default function Team() {
 
                         </div>
                     </div>
-                    <div className="h-[7rem] sm:h-[10rem] lg:h-[15rem] xl:h-[18rem] flex bg-PPurple justify-center items-end lg:pb-5 xl:pb-10">
-                        <div className="hidden lg:flex text-white    lg:text-4xl xl:text-5xl  lg:font-semibold   h-fit">
+                    <div className="h-[7rem] sm:h-[10rem] lg:h-[15rem]  flex bg-PPurple justify-center items-end lg:pb-5 xl:pb-10">
+                        <div className="hidden lg:flex text-white    lg:text-4xl   lg:font-semibold   h-fit">
                             Our Team
                         </div>
                     </div>
