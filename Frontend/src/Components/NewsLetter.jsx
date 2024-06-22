@@ -3,7 +3,7 @@ import splash from "../../public/splash.jpg"
 export default function NewsLetter(){
     return (
         <>
-            <div className="md:pl-14 md:pr-14 xl:pl-16 xl:pr-16 p-5 ">
+            <div className="md:pl-14 md:pr-14 xl:pl-16 xl:pr-16 p-5  ">
                 
                 <div style={{backgroundImage: `url(${splash})`,backgroundSize:'cover',backgroundPosition:"center" }} className=" rounded-3xl flex justify-center items-center p-5 md:p-8">
                     <div className="flex flex-col justify-center items-center gap-3 sm:gap-4 ">

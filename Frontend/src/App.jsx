@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className='flex justify-center'>
+    <div className='flex flex-col justify-center items-center overflow-x-hidden'>
      <div className='max-w-[100rem] 2xl:min-w-[100rem]  lg:pl-5 lg:pr-5    '>
         <Navbar/>
         <div className=' flex justify-center  md:pl-0 md:pr-0'>
@@ -22,10 +22,12 @@ function App() {
         <Learning/>
         <Businesses/>
         <NewsLetter/>
-        <Team/>
+        
         </div>
         </div>
+        
      </div>
+     <Team/>
      </div>
     </>
   )
