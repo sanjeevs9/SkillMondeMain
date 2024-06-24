@@ -6,6 +6,8 @@ import Main from './Components/Main'
 import NewsLetter from './Components/NewsLetter'
 import Businesses from './Components/Business'
 import Team from './Components/Team'
+import BlogComponent from './Components/BlogComponent'
+import Blogs from './Components/Blogs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +24,7 @@ function App() {
         <Learning/>
         <Businesses/>
         <NewsLetter/>
-        
+        <Blogs/>
         </div>
         </div>
         
