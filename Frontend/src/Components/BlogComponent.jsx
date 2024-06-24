@@ -2,8 +2,8 @@
 export default function BlogComponent({title,paragraph,fn}){
     return(
         <>
-            <div className="pl-5 pr-5">
-                <div className="flex flex-col border-2 gap-3  rounded-3xl md:max-w-[37rem] shadow-lg p-5">
+            <div className="pl-5 pr-5 md:pb-5">
+                <div className="flex flex-col  gap-3  rounded-3xl md:max-w-[37rem] shadow-xl   border-gray-100 p-5">
                     <div className="text-PPurple text-lg sm:text-xl md:text-lg lg:text-2xl   font-semibold">
                     National Instructional Materials Accessibility Standards
                     </div>
