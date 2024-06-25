@@ -16,7 +16,7 @@ export default function FreelanceSection(){
                                     <span className="text-PGreen">Freelancers</span>:
                                 </div>
                                 <div className="text-sm sm:text-lg md:text-base font-normal xl:text-xl pt-2 pb-5 md:pb-7">Get your work done by the best freelancers</div>
-                                <button className="bg-white text-black text-xs sm:text-base xl:text-base rounded-lg p-2 pl-3 pr-3 sm:p-4 sm:pl-8 sm:pr-8   md:p-3 md:pl-7 md:pr-7 transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button>
+                                <button  onClick={()=>{window.open("https://skillmonde.com")}} className="bg-white text-black text-xs sm:text-base xl:text-base rounded-lg p-2 pl-3 pr-3 sm:p-4 sm:pl-8 sm:pr-8   md:p-3 md:pl-7 md:pr-7 transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button>
                             </div>
                     </div>
                     <div className="md:w-4/6 w-full  h-2/6 sm:h-2/6 md:h-auto  flex ">
