@@ -6,7 +6,7 @@ import three from "../../public/3.png"
 export default function Team() {
     return (
         <>
-            <div className="flex justify-center overflow-x-hidden  ">
+            <div className="flex justify-center overflow-x-hidden bg-red-400 pb-48 md:pb-[22rem] lg:pb-[32rem] ">
                 <div className="  w-full h-[5rem] md:h-[7rem] lg:h-[11rem] absolute -translate-y-10">
 
                     <div className="relative   top-3/4 sm:top-3/4 md:top-3/4  justify-center  flex items-center">

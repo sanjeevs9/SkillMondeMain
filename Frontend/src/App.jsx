@@ -8,6 +8,7 @@ import Businesses from './Components/Business'
 import Team from './Components/Team'
 import BlogComponent from './Components/BlogComponent'
 import Blogs from './Components/Blogs'
+import ContactUs from './Components/ContactUs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,12 +26,14 @@ function App() {
         <Businesses/>
         <NewsLetter/>
         <Blogs/>
+        
         </div>
         </div>
         
      </div>
      <Team/>
      </div>
+     <ContactUs/>
     </>
   )
 }
