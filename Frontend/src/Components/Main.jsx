@@ -14,7 +14,7 @@ export default function Main(){
                                 Connecting Businesses, Freelancing and Learners fro a Brighter Future
                             </div>
                             <div className="pt-4 sm:pt-5 md:pt-6">
-                                <button className="bg-PGreen text-xs sm:text-base font-medium rounded-lg p-2 pl-4 pr-4 sm:p-3 sm:pl-5 sm:pr-5  text-center hover:bg-[#125045] hover:text-white">Explore more </button>
+                                <button onClick={()=>{window.open("https://skillmonde.com")}} className="bg-PGreen text-xs sm:text-base font-medium rounded-lg p-2 pl-4 pr-4 sm:p-3 sm:pl-5 sm:pr-5  text-center hover:bg-[#125045] hover:text-white">Explore more </button>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ export default function Businesses(){
                                 Register now and explore oppurtinieties
                             </div>
                             <div>
-                            <button className=" bg-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10  lg:p-[2.5] lg:pl-8 lg:pr-8 xl:p-3 xl:pl-10 xl:pr-10 rounded-lg text-sm font-semibold transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button> 
+                            <button onClick={()=>{window.open("https://www.skillmonde.com/corporate")}} className=" bg-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10  lg:p-[2.5] lg:pl-8 lg:pr-8 xl:p-3 xl:pl-10 xl:pr-10 rounded-lg text-sm font-semibold transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button> 
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,16 @@
+import { useState } from "react"
 import desk from "../../public/desk.png"
 
 export default function ContactUs(){
+    const[name,setName]=useState("");
+    const[email,setEmail]=useState("");
+    const[message,setMessage]=useState("");
+
+    function handle(){
+        console.log(name)
+        console.log(email)
+        console.log(message)
+    }
     return(
         <>
         <div className="p-5 flex flex-col gap-10">
@@ -13,11 +23,11 @@ export default function ContactUs(){
                 </div>
                 <div className="flex w-full  h-full  md:w-1/2  items-center justify-center md:p-10">
                     <div className="flex flex-col gap-6 w-4/5 md:w-full max-w-[28rem]">
-                        <input className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm placeholder:pl-1 p-2 " placeholder="Name"></input>
-                        <input className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm placeholder:pl-1 p-2 " placeholder="Email"></input>
-                        <textarea className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm   pl-3 pt-2  resize-none " rows="5" placeholder="Message"></textarea>
+                        <input className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm placeholder:pl-1 p-2 " placeholder="Name" onChange={(e)=>{setName(e.target.value)}}></input>
+                        <input className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm placeholder:pl-1 p-2 " type="email" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}}></input>
+                        <textarea className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm   pl-3 pt-2  resize-none " rows="5" placeholder="Message" onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                         <div className="flex justify-end">
-                            <button className="bg-black text-white p-2 pl-8 pr-8 text-sm rounded-lg">Send</button>
+                            <button onClick={handle} className="bg-black text-white p-2 pl-8 pr-8 text-sm rounded-lg">Send</button>
                         </div>
                     </div>
                 </div>
