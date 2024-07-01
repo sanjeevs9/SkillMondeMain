@@ -9,6 +9,7 @@ import Team from './Components/Team'
 import BlogComponent from './Components/BlogComponent'
 import Blogs from './Components/Blogs'
 import ContactUs from './Components/ContactUs'
+import { ToastContainer,Bounce } from 'react-toastify'
 
 function App() {
   const BlogRef=React.createRef()
@@ -42,6 +43,19 @@ function App() {
      <div ref={ContactRef}>
      <ContactUs />
      </div>
+     <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+transition: Bounce
+/>
     </>
   )
 }

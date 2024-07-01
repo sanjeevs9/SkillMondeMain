@@ -1,15 +1,38 @@
 import { useState } from "react"
 import desk from "../../public/desk.png"
+import React from "react";
+import emailjs from "@emailjs/browser"
+import { error, success } from "./Toast";
+
+const service=import.meta.env.VITE_YOUR_SERVICE_ID;
+const template=import.meta.env.VITE_YOUR_TEMPLATE_ID;
+const publicKey =import.meta.env.VITE_YOUR_PUBLIC_KEY;
+
 
 export default function ContactUs(){
     const[name,setName]=useState("");
     const[email,setEmail]=useState("");
     const[message,setMessage]=useState("");
+    const[wait,setwait]=useState(false);
 
-    function handle(){
-        console.log(name)
-        console.log(email)
-        console.log(message)
+    async function handle(){
+        if(wait){
+            return;
+        }
+        setwait(true);
+        try{
+          await  emailjs.send(`${service}`,`${template}`,{
+                from_name:name,
+                message:message,
+                reply_to:email
+            },{publicKey:publicKey})
+        }catch(er){
+            error("Something Went Wrong Please try again later")
+            setwait(false);
+        }finally{
+            success("Email Sent")
+            setwait(false);
+        }
     }
     return(
         <>
@@ -27,7 +50,14 @@ export default function ContactUs(){
                         <input className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm placeholder:pl-1 p-2 " type="email" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}}></input>
                         <textarea className="outline-none border-[1px] border-black rounded-lg placeholder:text-sm   pl-3 pt-2  resize-none " rows="5" placeholder="Message" onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                         <div className="flex justify-end">
-                            <button onClick={handle} className="bg-black text-white p-2 pl-8 pr-8 text-sm rounded-lg">Send</button>
+                            <button onClick={handle} className={`bg-black text-white p-2 pl-8 pr-8 text-sm rounded-lg`}>{wait?
+                            <div>
+                            <span className="">
+                            Sending...
+                            </span>
+                            </div>
+                            :"Send"    
+                        }</button>
                         </div>
                     </div>
                 </div>
