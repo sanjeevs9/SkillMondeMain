@@ -37,13 +37,12 @@ export default function NewsLetter() {
         values.ipAddress=ipAddress
         await axios.post("http://localhost:3000/email", values)
         .then(res=>{
-           alert("done")
+           alert(res.data.message);
         }).catch(err=>{
-            alert("try again later")
+            alert(err.response.data.message)
         })
         setwait(false)
    
-       
     },
   });
 

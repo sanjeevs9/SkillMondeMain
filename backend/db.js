@@ -8,7 +8,7 @@ const db = mysql.createConnection({
     database: 'email',
     port: 3307
 });
-
+console.log("donee")
 // Attempt to connect to the database
 db.connect((err) => {
     if (err) {
