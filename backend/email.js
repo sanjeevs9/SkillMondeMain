@@ -25,7 +25,7 @@ router.post("/", (req,res)=>{
             
             db.query(insert,values,(err,result)=>{
              if(err){
-              return   res.status(500).json({message:"somthing went wrong"})
+              return   res.status(500).json({message:"something went wrong"})
              }
             return  res.status(201).json({message:"You are Signed up for the service"})
             })
