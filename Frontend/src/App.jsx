@@ -10,7 +10,8 @@ import BlogComponent from './Components/BlogComponent'
 import Blogs from './Components/Blogs'
 import ContactUs from './Components/ContactUs'
 import { ToastContainer,Bounce } from 'react-toastify'
-
+import TestimonialCarousel from './Components/Testimonials'
+import OurServices from './Components/OurServices'
 function App() {
   const BlogRef=React.createRef()
   const ContactRef=useRef();
@@ -24,12 +25,14 @@ function App() {
         <div className=' flex justify-center  md:pl-0 md:pr-0'>
         <div  className='max-w-[85rem] items-center '>
         <Main/>
+        <OurServices/>    
         <div ref={ServiceRef}>
         <FreelanceSection/>
         </div>
         <Learning/>
         <Businesses/>
         <NewsLetter/>
+        <TestimonialCarousel/>
         <div ref={BlogRef}>
         <Blogs />
         </div>
