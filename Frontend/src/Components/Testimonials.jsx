@@ -85,19 +85,19 @@ export default function TestimonialCarousel() {
               <div className="px-2 flex justify-center items-center   pt-5  pb-10 ">
                 <div
                      style={{ boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.3)' }}
-                className="bg-white rounded-tr-2xl rounded-bl-2xl h-[20rem] sm:h-[25rem]  lg:h-[30rem] lg:w-[25rem] shadow-lg p-4    flex flex-col ">
+                className="bg-white rounded-tr-2xl rounded-bl-2xl h-[25rem] sm:h-[25rem] md:h-[30rem]  lg:h-[30rem] lg:w-[25rem] shadow-lg p-4    flex flex-col ">
                   <div className="flex justify-center mb-4 sm:mb-6 md:mb-8">
                     <div className="rounded-full bg-black p-2 sm:p-3 md:p-4">
                       <User2 className="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
                     </div>
                   </div>
                   <blockquote className="text-center mb-4 sm:mb-6 md:mb-8 flex-grow pt-5 sm:pt-0 lg:pt-10">
-                    <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
+                    <p className="text-gray-600 text-sm sm:text-base md:text-base lg:text-lg leading-relaxed">
                       "{testimonial.quote}"
                     </p>
                   </blockquote>
                   <footer className="text-center">
-                    <p className="font-semibold text-sm sm:text-base md:text-lg">
+                    <p className="font-semibold text-sm sm:text-base md:text-base lg:text-lg">
                       - {testimonial.author}
                     </p>
                   </footer>
