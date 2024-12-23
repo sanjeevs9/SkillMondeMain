@@ -8,15 +8,16 @@ export default function Businesses(){
                     <div className="bg-[#ecf9df] flex p-2 w-full md:w-4/6 md:rounded-l-3xl ">
                         <div className=" w-full md:w-3/4  flex flex-col md:gap-6 gap-5 p-4 lg:p-6">
                             <div className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
-                                Transfrom Your Business Today
+                            Transform Your Training and Courses with SkillMonde
                             </div>
-                            <div className="text-lg md:text-xl xl:text-2xl  font-medium">
-                                Leading B2B Solutions
+                            <div className="text-base md:text-lg xl:text-2xl  font-medium">
+                            We specialize in custom training design, course development, and corporate learning solutions to boost employee performance and achieve business goals.
                             </div>
                             <div className="text-sm md:text-sm xl:text-base">
-                                UP your work game effortlessly <br/>
-                                No cost to join ever. <br/>
-                                Register now and explore oppurtinieties
+                            Custom eLearning Solutions <br/>
+                            Interactive Training Modules <br/>
+                            Advanced LMS Integration <br/>
+                            Engaging Course Design
                             </div>
                             <div>
                             <button onClick={()=>{window.open("https://www.skillmonde.com/corporate")}} className=" bg-PGreen p-2 pl-5 pr-5 sm:p-3 sm:pl-10 sm:pr-10  lg:p-[2.5] lg:pl-8 lg:pr-8 xl:p-3 xl:pl-10 xl:pr-10 rounded-lg text-sm font-semibold transition ease-linear delay-150 hover:-translate-y-[0.5px] duration-300 hover:scale-105">Visit Now</button> 

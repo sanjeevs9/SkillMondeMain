@@ -7,30 +7,53 @@ import '../index.css'
 const OurServices = () => {
   const services = [
     {
-      title: "Corporate Social Responsibility (CSR) Implementation",
-      description: "SkillMonde partners with organizations to design and execute impactful CSR programs that align with corporate goals and deliver measurable social outcomes."
+      title: "Content Development for K-12, Higher Education, and Professional Skills",
+      description: "Your trusted content development vendor for K-12 curriculum, higher education course materials, and professional skills training. We create engaging, interactive content aligned with curriculum standards for schools, universities, and corporate training programs."
+    },
+    {
+      title: "eLearning and Storyboarding Solutions",
+      description: "We offer custom eLearning solutions, developing interactive modules with videos, quizzes, and simulations. Our instructional designers create SCORM-compliant storyboards for seamless LMS integration and effective digital learning experiences."
+    },
+    {
+      title: "Complete Course Writing and Development for Distance Learning",
+      description: "We specialize in online course development for distance learning universities, delivering comprehensive, multimedia-rich content for Bachelor's, Master's, and blended learning programs."
+    },
+    {
+      title: "Comprehensive Publishing Services",
+      description: "SkillMonde offers comprehensive publishing services for educational institutions, including professional copyediting, proofreading, typesetting, and eBook production for accessible and polished content."
+    },
+    {
+      title: "Customized Services for NGOs",
+      description: "We provide eLearning and content development solutions for NGOs, including vocational training, literacy programs, and CSR initiatives. Our LMS customization ensures your learning platforms."
+    },
+    {
+      title: "Video Production and Editing for Educational and Corporate Training",
+      description: "SkillMonde delivers video production and editing services for educational and corporate training programs, creating engaging instructional and explainer videos to enhance knowledge retention."
+    },
+    {
+      title: "Animation Services for Interactive Learning",
+      description: "We offer 2D and 3D animation services to create dynamic learning content for eLearning and corporate training programs, simplifying complex ideas and boosting learner engagement."
+    },
+    {
+      title: "Translation and Localization Services",
+      description: "Our translation and localization services adapt educational, corporate, and NGO content for global audiences, ensuring compliance with local standards and cultural relevance."
     },
     {
       title: "Voice Over Services for eLearning and Corporate Content",
       description: "We provide professional multilingual voice-over services for eLearning and corporate videos, enhancing communication with high-quality narration for instructional content."
     },
     {
-        title: "Corporate Social Responsibility (CSR) Implementation",
-        description: "SkillMonde partners with organizations to design and execute impactful CSR programs that align with corporate goals and deliver measurable social outcomes."
-      },
-      {
-        title: "Voice Over Services for eLearning and Corporate Content",
-        description: "We provide professional multilingual voice-over services for eLearning and corporate videos, enhancing communication with high-quality narration for instructional content."
-      },
-      {
-        title: "Corporate Social Responsibility (CSR) Implementation",
-        description: "SkillMonde partners with organizations to design and execute impactful CSR programs that align with corporate goals and deliver measurable social outcomes."
-      },
-      {
-        title: "Voice Over Services for eLearning and Corporate Content",
-        description: "We provide professional multilingual voice-over services for eLearning and corporate videos, enhancing communication with high-quality narration for instructional content."
-      }
-    // Add more services as needed
+      title: "Instructional Design and eLearning Module Development",
+      description: "Our instructional design experts create custom eLearning modules that are interactive and aligned with learning objectives, using multimedia elements for engaging learning experiences."
+    },
+    {
+      title: "Corporate Social Responsibility (CSR) Implementation",
+      description: "SkillMonde partners with organizations to design and execute impactful CSR programs that align with corporate goals and deliver measurable social outcomes."
+    },
+    {
+      title: "LMS Solutions for Educational, Corporate, and NGO Programs",
+      description: "We offer custom LMS solutions for schools, universities, corporate training, and NGOs, ensuring seamless integration with SCORM and xAPI compliance for diverse learning needs."
+    }
   ];
 
   return (
@@ -44,7 +67,7 @@ const OurServices = () => {
         "--swiper-pagination-color": "#000000",
         "--swiper-pagination-bullet-inactive-color": "#999999",
         "--swiper-pagination-bullet-inactive-opacity": "1",
-        "--swiper-pagination-bullet-size": "10px",
+        "--swiper-pagination-bullet-size": "5px",
         "--swiper-pagination-bullet-horizontal-gap": "6px",
         "--swiper-pagination-bullet-vertical-gap": "10px",
         "--swiper-pagination-bottom": "-5px",
@@ -74,7 +97,7 @@ const OurServices = () => {
           <SwiperSlide className='flex justify-center items-center w-[5rem]  p-1 ' key={index}>
             <div
             style={{ boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.3)' }}
-            className="flex flex-col items-center   bg-white rounded-lg shadow-xl p-6 md:w-[30rem] h-[15rem] ">
+            className="flex flex-col items-center   bg-white rounded-lg shadow-xl p-6 md:w-[30rem] h-[15rem] lg:h-[18rem] ">
               <h3 className="text-base md:text-xl font-semibold mb-4">{service.title}</h3>
               <p className="text-sm md:text-base text-black pt-6">{service.description}</p>
             </div>

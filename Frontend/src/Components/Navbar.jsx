@@ -16,15 +16,27 @@ export default function Navbar({ BlogRef, ContactRef, ServiceRef }) {
                         <div onClick={() => { ServiceRef.current?.scrollIntoView({ behavior: 'smooth' }); }} className="font-ubuntu cursor-pointer text-xs sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                             Sevices
                         </div>
-                        <div onClick={() => { BlogRef.current?.scrollIntoView({ behavior: 'smooth' }); }} className="block cursor-pointer text-sm sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        <div onClick={() => { BlogRef.current?.scrollIntoView({ behavior: 'smooth' }); }} className="font-ubuntu cursor-pointer text-xs sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] hidden md:block">
                             Blog
                         </div>
-                        <div onClick={() => { ContactRef.current?.scrollIntoView({ behavior: "smooth" }) }} className="block cursor-pointer text-sm sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] " >
+                        <div onClick={() => { 
+                            
+                            window.open("freelancing.skillmonde.com", "_blank");
+
+                         }} className="font-ubuntu cursor-pointer text-xs sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] " >
+                            Freelancing
+                        </div>
+                        <div onClick={() => { 
+                            
+                            window.open("http://learn.skillmonde.com/", "_blank");
+
+                         }} className="font-ubuntu cursor-pointer text-xs sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] " >
+                            Courses
+                        </div>
+                        <div onClick={() => { ContactRef.current?.scrollIntoView({ behavior: "smooth" }) }} className="font-ubuntu cursor-pointer text-xs sm:text-base relative  transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] hidden md:block" >
                             Contact Us
                         </div>
-                        <div>
-
-                        </div>
+                        
                     </div>
                     
                 </div>
