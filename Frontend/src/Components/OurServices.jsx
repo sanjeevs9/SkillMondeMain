@@ -58,7 +58,7 @@ const OurServices = () => {
 
   return (
     <div className='flex justify-center items-center '>
-    <div className="container  px-4 py-12 w-[23rem] md:min-w-full">
+    <div className="container  px-4  w-[23rem] md:min-w-full">
       <h2 className="text-3xl font-bold text-center mb-10">OUR SERVICES</h2>
       
       <Swiper
@@ -97,7 +97,7 @@ const OurServices = () => {
           <SwiperSlide className='flex justify-center items-center w-[5rem]  p-1 ' key={index}>
             <div
             style={{ boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.3)' }}
-            className="flex flex-col items-center   bg-white rounded-lg shadow-xl p-6 md:w-[30rem] h-[15rem] lg:h-[18rem] ">
+            className="flex flex-col items-center   bg-white rounded-lg shadow-xl p-6 md:w-[30rem] h-[16rem] lg:h-[18rem] ">
               <div className='flex flex-col items-start justify-start '>
               <h3 className=" flex text-base md:text-xl font-semibold md:mb-4 text-center  ">{service.title}</h3>
               </div>
