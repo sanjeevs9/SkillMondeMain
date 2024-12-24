@@ -101,7 +101,7 @@ const OurServices = () => {
               <div className='flex flex-col items-start justify-start '>
               <h3 className=" flex text-base md:text-xl font-semibold md:mb-4 text-center  ">{service.title}</h3>
               </div>
-              <p className="text-sm md:text-base text-black pt-6">{service.description}</p>
+              <p className="text-sm md:text-base text-black pt-3 sm:pt-5">{service.description}</p>
             </div>
           </SwiperSlide>
         ))}
