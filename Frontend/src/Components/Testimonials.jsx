@@ -53,9 +53,9 @@ export default function TestimonialCarousel() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center sm:pt-5">
       <div className="w-[20rem] sm:w-[25rem] md:w-[50rem] lg:w-[70rem] xl:w-full    px-2 sm:px-6 lg:px-8">
-        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 md:mb-16 tracking-tight">
+        <h2 className=" text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 md:mb-16 tracking-tight">
           TESTIMONIAL
         </h2>
 

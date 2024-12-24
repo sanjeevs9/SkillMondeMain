@@ -37,7 +37,7 @@ export default function ContactUs(){
     return(
         <>
         <div className="p-5 flex flex-col gap-10">
-        <div className="flex justify-center font-semibold text-2xl sm:text-3xl lg:pr-5 xl:pr-7">
+        <div className="flex justify-center lg:pr-5 xl:pr-7 text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-8 md:mb-12 tracking-tight">
                 Contact Us
             </div>
             <div className="flex flex-col md:flex-row h-[20rem] md:h-full   items-center  w-full md:gap-7 justify-center">

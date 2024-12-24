@@ -8,13 +8,13 @@ export default function Main(){
                     <div className="xl:translate-y-4">
                         <div className="flex flex-col p-5 sm:p-6 md:p-5 md:pt-7 ">
                             <div className="font-bold text-4xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-cormorant-gara">
-                                Your Future Starts at <span className="text-PGreen">SkillMonde</span>
+                            Your Trusted Vendor for Content Development and Skill Building 
                             </div>
                             <div className="text-gray-500 font-semibold text-sm sm:text-lg md:text-sm lg:text-base xl:text-lg  w-4/5 pt-2 sm:pt-3 xl:pt-5">
-                                Connecting Businesses, Freelancing and Learners fro a Brighter Future
+                            Expert Services in eLearning, Training, Publishing, and Multimedia
                             </div>
                             <div className="pt-4 sm:pt-5 md:pt-6">
-                                <button onClick={()=>{window.open("https://skillmonde.com")}} className="bg-PGreen text-xs sm:text-base font-medium rounded-lg p-2 pl-4 pr-4 sm:p-3 sm:pl-5 sm:pr-5  text-center hover:bg-[#125045] hover:text-white">Explore more </button>
+                                <button onClick={()=>{window.open("https://skillmonde.com")}} className="bg-PGreen text-xs sm:text-base font-medium rounded-lg p-2 pl-4 pr-4 sm:p-3 sm:pl-5 sm:pr-5  text-center hover:bg-[#125045] hover:text-white">Book Your Free Consultation </button>
                             </div>
                         </div>
                     </div>

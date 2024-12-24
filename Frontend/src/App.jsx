@@ -12,6 +12,7 @@ import ContactUs from './Components/ContactUs'
 import { ToastContainer,Bounce } from 'react-toastify'
 import TestimonialCarousel from './Components/Testimonials'
 import OurServices from './Components/OurServices'
+import Clients from './Components/Clients'
 function App() {
   const BlogRef=React.createRef()
   const ContactRef=useRef();
@@ -44,7 +45,9 @@ function App() {
      <Team/>
      </div>
      <div ref={ContactRef}>
+     <Clients/>
      <ContactUs />
+     
      </div>
      <ToastContainer
 position="top-center"

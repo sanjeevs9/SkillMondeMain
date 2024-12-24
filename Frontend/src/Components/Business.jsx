@@ -6,14 +6,14 @@ export default function Businesses(){
             <div className="pl-5 pr-5 pt-5 pb-5">
                 <div className="flex flex-col md:flex-row w-full gap-5 md:gap-10 h-auto   md:h-[25rem] lg:h-[26rem]  xl:h-[30rem] md:relative">
                     <div className="bg-[#ecf9df] flex p-2 w-full md:w-4/6 md:rounded-l-3xl ">
-                        <div className=" w-full md:w-3/4  flex flex-col md:gap-6 gap-5 p-4 lg:p-6">
-                            <div className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+                        <div className=" w-full md:w-3/4  flex flex-col md:gap-4 gap-5 p-4 lg:p-6">
+                            <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">
                             Transform Your Training and Courses with SkillMonde
                             </div>
-                            <div className="text-base md:text-lg xl:text-2xl  font-medium">
-                            We specialize in custom training design, course development, and corporate learning solutions to boost employee performance and achieve business goals.
+                            <div className="text-base md:text-base xl:text-xl  font-medium">
+                            We specialize in custom training design, course development, and corporate learning.
                             </div>
-                            <div className="text-sm md:text-sm xl:text-base">
+                            <div className=" text-sm md:text-xs xl:text-base">
                             Custom eLearning Solutions <br/>
                             Interactive Training Modules <br/>
                             Advanced LMS Integration <br/>

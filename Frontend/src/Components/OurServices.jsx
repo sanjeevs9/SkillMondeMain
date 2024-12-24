@@ -80,7 +80,7 @@ const OurServices = () => {
     
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 3000,
+          delay: 1000000,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -98,7 +98,9 @@ const OurServices = () => {
             <div
             style={{ boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.3)' }}
             className="flex flex-col items-center   bg-white rounded-lg shadow-xl p-6 md:w-[30rem] h-[15rem] lg:h-[18rem] ">
-              <h3 className="text-base md:text-xl font-semibold mb-4">{service.title}</h3>
+              <div className='flex flex-col items-start justify-start '>
+              <h3 className=" flex text-base md:text-xl font-semibold md:mb-4 text-center  ">{service.title}</h3>
+              </div>
               <p className="text-sm md:text-base text-black pt-6">{service.description}</p>
             </div>
           </SwiperSlide>
